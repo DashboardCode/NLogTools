@@ -15,6 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLogTools", "NLogTools\NLog
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Tests\NLogTools.Test\NLogTools.Test.projitems*{27cc69a4-c721-48d7-b2df-21a02f9c7b4c}*SharedItemsImports = 4
 		Tests\NLogTools.Test\NLogTools.Test.projitems*{8ecd6861-42b4-447d-9ec9-412a22ab0f3e}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
