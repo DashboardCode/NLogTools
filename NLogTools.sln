@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogTools.NETFramework.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLogTools", "NLogTools\NLogTools.csproj", "{B6A20990-2365-4D8C-AEF5-4E2B6CCFEF5E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C1FF38C-499A-416A-A320-6658B346D7E6}"
+	ProjectSection(SolutionItems) = preProject
+		nugetall.ps1 = nugetall.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tests\NLogTools.Test\NLogTools.Test.projitems*{27cc69a4-c721-48d7-b2df-21a02f9c7b4c}*SharedItemsImports = 4
