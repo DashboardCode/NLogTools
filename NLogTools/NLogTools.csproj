@@ -13,13 +13,17 @@
     <PackageIconUrl>https://raw.githubusercontent.com/DashboardCode/Routines/master/Routines.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/DashboardCode/Routines</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <AssemblyVersion>1.0.6.0</AssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702; NU5125</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
