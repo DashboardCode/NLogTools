@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0; netstandard2.1</TargetFrameworks>
     <AssemblyName>DashboardCode.NLogTools</AssemblyName>
     <RootNamespace>DashboardCode.NLogTools</RootNamespace>
     <Authors>Roman Pokrovskij (Github user rpokrovskij)</Authors>
     <Product>DashboardCode.NLogTools</Product>
     <Description>NLog Mail target with "max per day" counter</Description>
     <Copyright>2018 Roman Pokrokvsij (Github user rpokrovskij)</Copyright>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/DashboardCode/Routines/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/DashboardCode/Routines</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/DashboardCode/Routines/master/Routines.png</PackageIconUrl>
+    <PackageIcon>Routines.png</PackageIcon>
     <RepositoryUrl>https://github.com/DashboardCode/Routines</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.12</Version>
+    <Version>3.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.11.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <PackageReleaseNotes />
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -29,6 +29,10 @@
 
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.6.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../Routines.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
 
 </Project>
