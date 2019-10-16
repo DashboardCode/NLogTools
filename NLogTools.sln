@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{375A2721-FF41-48E9-B1BB-79B90493F46B}"
 EndProject
@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C1FF38C-499A-416A-A320-6658B346D7E6}"
 	ProjectSection(SolutionItems) = preProject
 		nugetall.ps1 = nugetall.ps1
+		readme.txt = readme.txt
 	EndProjectSection
 EndProject
 Global
