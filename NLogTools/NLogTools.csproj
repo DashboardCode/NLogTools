@@ -12,9 +12,9 @@
     <PackageIcon>Routines.png</PackageIcon>
     <RepositoryUrl>https://github.com/DashboardCode/Routines</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>3.0.1</Version>
+    <Version>3.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>3.0.1.0</AssemblyVersion>
+    <AssemblyVersion>3.0.2.0</AssemblyVersion>
     <PackageReleaseNotes />
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
@@ -28,7 +28,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.6.7" />
+    <PackageReference Include="NLog" Version="4.7.2" />
   </ItemGroup>
 
   <ItemGroup>
