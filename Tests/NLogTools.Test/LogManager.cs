@@ -7,7 +7,7 @@ namespace DashboardCode.NLogTools.Test
     static class LogTestManager
     {
         const int bufferedMessageCountForOperation = 40;
-        private static Random random = new Random();
+        private static readonly Random random = new Random();
         const int messageMinBytes = 1000;
         const int messageMaxBytes = 2000; // 2kb is a typewritten page
 

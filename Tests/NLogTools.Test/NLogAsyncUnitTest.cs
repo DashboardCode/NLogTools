@@ -20,10 +20,9 @@ namespace DashboardCode.NLogTools.Test
         const int puaseBetweenOperationsMs = 0;
 
         const int repeats = 1;
-
-        Logger logger1;
-        Logger logger2;
-        NLog.Targets.Target verboseTarget;
+        readonly Logger logger1;
+        readonly Logger logger2;
+        readonly NLog.Targets.Target verboseTarget;
         public NLogAsyncUnitTest()
         {
             logger1 = NLog.LogManager.GetLogger("Routine1:Tests");
