@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)LogManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NLogAsyncUnitTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NLogMailUnitTest.cs" />
   </ItemGroup>
 </Project>

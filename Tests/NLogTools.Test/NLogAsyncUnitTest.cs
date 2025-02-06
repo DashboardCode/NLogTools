@@ -166,7 +166,7 @@ namespace DashboardCode.NLogTools.Test
                                         {
                                             if (NLog.LogManager.ThrowExceptions && Thread.CurrentThread.ManagedThreadId == originalThreadId)
                                             {
-                                                throw new NLogRuntimeException("Exception occurred in NLog", ex);
+                                                throw new ApplicationException("Exception occurred in NLog", ex);
                                             }
                                         }
                                     });

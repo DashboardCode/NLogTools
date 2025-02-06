@@ -1,1 +1,1 @@
-Close 
+Adds per day counter for the error's send by email.
